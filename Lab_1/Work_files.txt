@@ -1,0 +1,36 @@
+mkdir Work
+cd Work
+mkdir "Лабораторная работа №1!"
+mkdir "Бодня Владислав Александрович"
+chmod -R 722 "Лабораторная работа №1!"
+chmod -R 200 "Бодня Владислав Александрович"
+touch "Text @1.txt"
+touch "Text \$2.txt"
+touch "Text #3.txt"
+echo "Птица говорун отличается умом и сообразительностью!" >> "Text @1.txt"
+echo "Птица говорун отличается умом и сообразительностью!" >> "Text @1.txt"
+cat "Text @1.txt" > "Text \$2.txt"
+mv "Text \$2.txt" "Лабораторная работа №1!"
+sudo cp "Text @1.txt" "Бодня Владислав Александрович"
+gzip "Text @1.txt"
+gzip "Text #3.txt"
+tar -cf MyAchiv "Text @1.txt.gz" "Text #3.txt.gz" 
+gzip -d "Text @1.txt.gz"
+gzip -d "Text #3.txt.gz"
+head -n 1 "Text @1.txt" >> "Text #3.txt"
+echo "Будь осторожен! Преступник вооружен!" >> "Text #3.txt"
+sudo touch "Бодня Владислав Александрович"/"Result_one.txt"
+sudo tac "Text @1.txt" > "Бодня Владислав Александрович"/"Result_one.txt"
+sudo mv "Бодня Владислав Александрович"/"Result_one.txt" "Бодня Владислав Александрович"/"Result_two.txt"
+touch "Лабораторная работа №1!"/"Result_3.txt"
+sudo chmod -R 700 Бодня\ Владислав\ Александрович
+cat Бодня\ Владислав\ Александрович/T* > "Лабораторная работа №1!"/"Result_3.txt"
+uname -a >> "Лабораторная работа №1!"/"Result_3.txt"
+date >> "Лабораторная работа №1!"/"Result_3.txt"
+cd ..
+mkdir Lab_1
+mv sandbox Lab_1
+mv Work Lab_1
+mv Work_files.txt Lab_1
+git add .
+git commit
