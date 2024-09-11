@@ -33,4 +33,4 @@ mv sandbox Lab_1
 mv Work Lab_1
 mv Work_files.txt Lab_1
 git add .
-git commit
+git commit -m "Made the 1st lab"
